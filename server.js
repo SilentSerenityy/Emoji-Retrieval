@@ -10,7 +10,7 @@ app.get('/images', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-  res.send('<center>Click <a href="/images">here</a> to download the emojis!');
+  res.send('<center>Click <a href="/images">here</a> to download the emojis! - This is a secure file ONLY containing GIFs of your desired emote.');
 });
 
 app.listen(port, async () => {
